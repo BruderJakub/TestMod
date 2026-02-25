@@ -6,6 +6,9 @@
   "item.testmod.diamond_card": "Diamond Card",
   "item.testmod.spade_card": "Spade Card",
   "item.testmod.broccoli_card": "Broccoli Card",
+  "item.testmod.dagger": "Dagger",
+  "item.testmod.roulette_dagger": "Roulette Dagger",
+  "item.testmod.spade_of_spades": "Spade Of Spades",
 
   "block.testmod.poker_chip_block": "Poker Chip Block",
   "block.testmod.chip_block": "Chip Block",

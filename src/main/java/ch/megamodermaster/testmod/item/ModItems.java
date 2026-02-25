@@ -25,6 +25,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BROCCOLI_CARD = ITEMS.register("broccoli_card",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> DAGGER = ITEMS.register("dagger",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ROULETTE_DAGGER = ITEMS.register("roulette_dagger",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SPADE_OF_SPADES = ITEMS.register("spade_of_spades",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

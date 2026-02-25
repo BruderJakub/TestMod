@@ -17,13 +17,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> STABBY_KNIFE = ITEMS.register("stabby_knife",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> heart_card = ITEMS.register("heart_card",
+    public static final RegistryObject<Item> HEART_CARD = ITEMS.register("heart_card",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> diamond_card = ITEMS.register("diamond_card",
+    public static final RegistryObject<Item> DIAMOND_CARD = ITEMS.register("diamond_card",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> spade_card = ITEMS.register("spade_card",
+    public static final RegistryObject<Item> SPADE_CARD = ITEMS.register("spade_card",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> broccoli_card = ITEMS.register("broccoli_card",
+    public static final RegistryObject<Item> BROCCOLI_CARD = ITEMS.register("broccoli_card",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {

@@ -5,5 +5,9 @@
   "item.testmod.heart_card": "Heart Card",
   "item.testmod.diamond_card": "Diamond Card",
   "item.testmod.spade_card": "Spade Card",
-  "item.testmod.broccoli_card": "Broccoli Card"
+  "item.testmod.broccoli_card": "Broccoli Card",
+
+  "block.testmod.poker_chip_block": "Poker Chip Block",
+  "block.testmod.chip_block": "Chip Block",
+  "block.testmod.creepier_poker_chip_block": "Creepier Poker Chip Block"
 }

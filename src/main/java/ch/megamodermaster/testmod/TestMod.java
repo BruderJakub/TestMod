@@ -53,6 +53,20 @@ public class TestMod {
             event.accept(ModItems.POKER_CHIP);
             event.accept(ModItems.CRACKED_POKER_CHIP);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.STABBY_KNIFE);
+            event.accept(ModItems.HEART_CARD);
+            event.accept(ModItems.DIAMOND_CARD);
+            event.accept(ModItems.SPADE_CARD);
+            event.accept(ModItems.BROCCOLI_CARD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.POKER_CHIP_BLOCK);
+            event.accept(ModBlocks.CHIP_BLOCK);
+            event.accept(ModBlocks.CREEPIER_POKER_CHIP_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

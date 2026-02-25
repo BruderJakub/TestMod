@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "testmod:block/poker_chip_block"
+    }
+  }
+}

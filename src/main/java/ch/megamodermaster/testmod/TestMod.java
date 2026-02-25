@@ -1,6 +1,7 @@
 package ch.megamodermaster.testmod;
 
 import ch.megamodermaster.testmod.block.ModBlocks;
+import ch.megamodermaster.testmod.item.ModCreativeModeTabs;
 import ch.megamodermaster.testmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -33,6 +34,8 @@ public class TestMod {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

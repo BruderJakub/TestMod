@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "testmod:poker_chip_block",
+    "testmod:chip_block"
+  ]
+}

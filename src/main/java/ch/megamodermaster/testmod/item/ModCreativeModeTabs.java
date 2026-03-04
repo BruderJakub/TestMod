@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.testmod.weapon_things"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.STABBY_KNIFE.get());
+                        pOutput.accept(ModItems.SPADE_OF_SPADES.get());
+                        pOutput.accept(ModItems.ROULETTE_DAGGER.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

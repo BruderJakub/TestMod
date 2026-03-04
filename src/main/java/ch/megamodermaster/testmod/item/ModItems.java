@@ -1,6 +1,7 @@
 package ch.megamodermaster.testmod.item;
 
 import ch.megamodermaster.testmod.TestMod;
+import ch.megamodermaster.testmod.item.custom.ChiselItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -29,8 +30,10 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> ROULETTE_DAGGER = ITEMS.register("roulette_dagger",
             () -> new Item(new Item.Properties()));
+
+
     public static final RegistryObject<Item> SPADE_OF_SPADES = ITEMS.register("spade_of_spades",
-            () -> new Item(new Item.Properties()));
+            () -> new ChiselItem(new Item.Properties().durability(32)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

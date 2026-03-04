@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "testmod:item/spades_of_spades"
+    "layer0": "testmod:item/spade_of_spades"
   }
 }

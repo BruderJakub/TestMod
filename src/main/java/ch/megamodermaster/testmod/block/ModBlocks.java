@@ -1,6 +1,7 @@
 package ch.megamodermaster.testmod.block;
 
 import ch.megamodermaster.testmod.TestMod;
+import ch.megamodermaster.testmod.block.custom.DiamondHeartBlock;
 import ch.megamodermaster.testmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -31,6 +32,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CREEPIER_POKER_CHIP_BLOCK = registerBlock("creepier_poker_chip_block",
             () -> new DropExperienceBlock(UniformInt.of(2, 4), BlockBehaviour.Properties.of()
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> DIAMOND_HEART_BLOCK = registerBlock("diamond_heart_block",
+            () -> new DiamondHeartBlock(BlockBehaviour.Properties.of().strength(4f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

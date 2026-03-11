@@ -29,6 +29,10 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModBlocks.CREEPIER_POKER_CHIP_BLOCK.get());
 
                         pOutput.accept(ModBlocks.DIAMOND_HEART_BLOCK.get());
+
+                        pOutput.accept(ModItems.FORTUNE_COOKIE.get());
+
+                        pOutput.accept(ModItems.URANIUM_NUGGET.get());
                     }).build());
 
     public static final RegistryObject<CreativeModeTab> WEAPON_THINGS = CREATIVE_MODE_TABS.register("weapon_things",

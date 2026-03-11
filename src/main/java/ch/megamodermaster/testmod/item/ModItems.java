@@ -2,6 +2,7 @@ package ch.megamodermaster.testmod.item;
 
 import ch.megamodermaster.testmod.TestMod;
 import ch.megamodermaster.testmod.item.custom.ChiselItem;
+import ch.megamodermaster.testmod.item.custom.FuelItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -34,6 +35,13 @@ public class ModItems {
 
     public static final RegistryObject<Item> SPADE_OF_SPADES = ITEMS.register("spade_of_spades",
             () -> new ChiselItem(new Item.Properties().durability(32)));
+
+
+    public static final RegistryObject<Item> FORTUNE_COOKIE = ITEMS.register("fortune_cookie",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.FORTUNE_COOKIE)));
+
+    public static final RegistryObject<Item> URANIUM_NUGGET = ITEMS.register("uranium_nugget",
+            () -> new FuelItem(new Item.Properties(), 100000));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

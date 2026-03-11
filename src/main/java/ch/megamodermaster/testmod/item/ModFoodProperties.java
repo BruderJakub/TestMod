@@ -18,5 +18,5 @@ public class ModFoodProperties {
             .effect(new MobEffectInstance(MobEffects.POISON, 100, 20), 0.10F)
             .effect(new MobEffectInstance(MobEffects.CONFUSION, 800, 100), 0.25F)
             .effect(new MobEffectInstance(MobEffects.HUNGER, 200, 50), 0.05F)
-            .fast().usingConvertsTo(Items.PAPER).build();
+            .usingConvertsTo(Items.PAPER).build();
 }
